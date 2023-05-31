@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Istok Web", sans-serif;
+}
+
+body {
+    background-color: #1c1c1c;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+
+  /* Header styling
+  ------------------------- */
+
+  nav {
+    background-color: #292929;
+    padding: 30px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+  }
+
+  nav img {
+    height: 40px;
+    width: auto;
+  }
+
+  #logo {
+    transform: scale(4, 4);
+  }
+
+  /* Main page styling
+  ------------------------- */
+
+  main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+
+  .demo-button {
+    font-family: 'Montserrat';
+    background-color: #333;
+    color: #fff;
+    padding: 12px 24px;
+    font-size: 36px;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+
+  .demo-button:hover {
+    background-color: #555;
+  }
+
+  /* Footer styling
+  ------------------------- */
+
+  footer {
+    background-color: #292929;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+
+  .footer-text {
+    color: #fff;
+    font-size: 24px;
+    font-family: 'Montserrat';
+  }

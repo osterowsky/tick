@@ -21,7 +21,7 @@
 }
 
 .radio-card:hover {
-  border: 2px solid #016787;
+  border: 2px solid #309b42;
   opacity: 0.8;
   cursor: pointer;
 }
@@ -56,16 +56,16 @@
 }
 
 .radio-card.selected {
-  border: 2px solid #016787;
-  background-color: black;
+  border: 2px solid #309b42;
 }
+
 
 .radio-card.selected .radio-card-check {
   display: inline-flex;
 }
 
 .radio-card-1 {
-  background-color: #2ea307;
+  background-color: black;
 }
 
 .radio-card-2 {

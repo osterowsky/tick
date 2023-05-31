@@ -71,3 +71,22 @@
 .radio-card-2 {
   background-color: #077ca3;
 }
+
+.pay-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pay-button {
+  cursor: pointer;
+  padding: 10px 30px;
+  margin-top: 15px;
+  color: #000000;
+  text-decoration: none;
+  background: #7bff4f;
+  border-radius: 30px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: 0.5s;
+}

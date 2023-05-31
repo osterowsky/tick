@@ -32,7 +32,7 @@ body {
   }
 
   #logo {
-    transform: scale(4, 4);
+    transform: scale(2, 2);
   }
 
   /* Main page styling
@@ -46,10 +46,11 @@ body {
     min-height: 100vh;
   }
 
-  #demo-title {
+.headline {
     font-family: 'Montserrat';
     font-weight: 700;
     font-size: 72px;
+    text-align: center;
   }
 
   a {

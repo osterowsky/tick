@@ -57,6 +57,7 @@ body {
     cursor: pointer;
     transition: background-color 0.3s;
     box-shadow: 4px 6px 2px #7bff4f;
+    text-transform: uppercase;
   }
 
   .demo-button:hover {

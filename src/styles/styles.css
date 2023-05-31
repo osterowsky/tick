@@ -47,19 +47,25 @@ body {
   }
 
   .demo-button {
-    font-family: 'Montserrat';
+    font-family: 'Poppins';
+    font-weight: 600;
     background-color: #333;
-    color: #fff;
-    padding: 12px 24px;
-    font-size: 36px;
+    padding: 40px;
+    font-size: 72px;
     border: none;
-    border-radius: 12px;
+    border-radius: 30px;
     cursor: pointer;
     transition: background-color 0.3s;
+    box-shadow: 4px 6px 2px #7bff4f;
   }
 
   .demo-button:hover {
     background-color: #555;
+  }
+
+  a {
+    text-decoration: none;
+    color: #fff;
   }
 
   /* Footer styling

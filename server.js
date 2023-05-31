@@ -18,8 +18,8 @@ app.get('/demo', (req, res) => {
 });
 
 // Serve the checkout page
-app.get('/demo', (req, res) => {
-  res.sendFile(__dirname + '/src/static/demo.html');
+app.get('/checkout', (req, res) => {
+  res.sendFile(__dirname + '/src/static/checkout.html');
 })
 
 app.listen(port, () => {

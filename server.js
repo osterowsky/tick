@@ -12,10 +12,15 @@ app.get('/', (req, res) => {
   res.sendFile(__dirname + '/src/static/index.html');
 });
 
-// Serve the landing page
+// Serve the demo page
 app.get('/demo', (req, res) => {
   res.sendFile(__dirname + '/src/static/demo.html');
 });
+
+// Serve the checkout page
+app.get('/demo', (req, res) => {
+  res.sendFile(__dirname + '/src/static/demo.html');
+})
 
 app.listen(port, () => {
     console.log(`Server running at http://localhost:${port}`);

@@ -4,5 +4,5 @@ document.querySelector('.demo-button').addEventListener('click', function() {
 });
 
 function checkoutPage() {
-    console.log("Hello");
+    window.location.href = "../static/checkout.html";
 }

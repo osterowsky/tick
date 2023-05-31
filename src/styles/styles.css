@@ -46,22 +46,10 @@ body {
     min-height: 100vh;
   }
 
-  .demo-button {
-    font-family: 'Poppins';
-    font-weight: 600;
-    background-color: #333;
-    padding: 40px;
+  #demo-title {
+    font-family: 'Montserrat';
+    font-weight: 700;
     font-size: 72px;
-    border: none;
-    border-radius: 30px;
-    cursor: pointer;
-    transition: background-color 0.3s;
-    box-shadow: 4px 6px 2px #7bff4f;
-    text-transform: uppercase;
-  }
-
-  .demo-button:hover {
-    background-color: #555;
   }
 
   a {
@@ -84,5 +72,5 @@ body {
   .footer-text {
     color: #fff;
     font-size: 24px;
-    font-family: 'Poppins';
+    font-family: 'Montserrat';
   }

@@ -14,7 +14,7 @@
     .popup-content {
       background-color: #222;
       color: #fff;
-      padding: 20px;
+      padding: 40px;
       border-radius: 8px;
       text-align: center;
       display: flex;
@@ -22,6 +22,7 @@
       justify-content: space-between;
       align-items: center;
       height: 50vh;
+      margin-bottom: 20px;
     }
 
     #popup-logo {
@@ -46,7 +47,7 @@
       box-shadow: 2px 2px 2px black;
       cursor: pointer;
       padding: 10px 30px;
-      margin-top: 15px;
+      margin: 15px 5px;
       color: #000000;
       text-decoration: none;
       background: #7bff4f;

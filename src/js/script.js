@@ -14,3 +14,16 @@ const selectRadioCard = (cardNo) => {
     const selectedCard = document.querySelector(".radio-card-" + cardNo);
     selectedCard.classList.add(["selected"]);
 };
+
+    // Open the popup
+    function openPopup() {
+        const popup = document.getElementById("popup");
+        popup.style.display = "flex";
+      }
+
+    // Close the popup
+    function closePopup() {
+        const popup = document.getElementById("popup");
+        popup.style.display = "none";
+      }
+  

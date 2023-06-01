@@ -22,6 +22,11 @@ app.get('/checkout', (req, res) => {
   res.sendFile(__dirname + '/src/static/checkout.html');
 })
 
+// Serve the thank you page
+app.get('/thank-you', (req, res) => {
+  res.sendFile(__dirname + '/src/static/thank-you.html');
+})
+
 app.listen(port, () => {
     console.log(`Server running at http://localhost:${port}`);
   });

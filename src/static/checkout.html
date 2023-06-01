@@ -7,6 +7,7 @@
         <meta name="description" content="Tick">
         <link rel="stylesheet" href="../styles/styles.css">
         <link rel="stylesheet" href="../styles/checkout.css">
+        <link rel="stylesheet" href="../styles/popup.css">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
     </head>
     <body>
@@ -54,8 +55,22 @@
                   </div>
               </div>
               <div class="pay-container">
-                <a><button class="pay-button">Zapłać</button></a>
+                <button class="pay-button" onclick="openPopup()">Zapłać</button>
+            </div>
+          </div>
+
+          <div id="popup" class="popup-overlay">
+            <div class="popup-content">
+              <img src="../assets/logo.png" alt="tick logo" id="popup-logo">
+              <div class="popup-text">
+                <p>Do you want to pay with 0,011 ETH?</p>
               </div>
+              <div class="button-group">
+                <a href="/thank-you"><button class="pay-button">Confirm</button></a>
+                <button class="pay-button choose-diff">Choose other crypto</button>
+                <button class="pay-button cancel" onclick="closePopup()">Cancel</button>
+              </div>
+            </div>
           </div>
             
           </main>

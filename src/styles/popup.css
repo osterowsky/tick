@@ -31,16 +31,19 @@
       margin-bottom: 20px;
     }
 
+    .popup-container {
+      padding-right: 15px;
+      padding-bottom: 15px;
+      background-color: #3D3D3D;
+      box-shadow: 2px 2px 2px black;
+      border-radius: 30px;
+    }
 
     .popup-text {
-      padding: 10px;
-      background-color: rgb(24, 24, 24);
-      box-shadow: 2px 2px 2px black;
       flex-grow: 1;
       display: flex;
       align-items: center;
       justify-content: center;
-      border-radius: 30px;
     }
 
     .app-button {
@@ -64,10 +67,6 @@
     .cancel {
       background-color: #ff4f4f;
     }
-
-    .choose-diff {
-      background-color: #e6fbf7;
-    }
     
     .buy-text {
       font-size: 20px;
@@ -78,3 +77,129 @@
       width: 120px;
       height: 120px;
     }
+
+    #btc-logo {
+      width: 120px;
+      height: 120px;
+      transform: scale(0.6, 0.6);
+    }
+
+    .crypto-container {
+      transform: scale(0.8, 0.8);
+      background-color: #2C2C2C;
+      margin-top: 15px;
+      border-radius: 30px;
+      box-shadow: 2px 2px 2px black;
+    }
+
+    .crypto-card {
+      font-family: 'Poppins';
+      padding-right: 15px;
+      flex-grow: 1;
+      display: flex;
+      align-items: center;
+    }
+
+    .first {
+      border-radius: 30px;
+      background-color: #3D3D3D;
+    }
+
+    button {
+      position: relative;
+      background: #444;
+      color: #fff;
+      text-decoration: none;
+      text-transform: uppercase;
+      border: none;
+      letter-spacing: 0.1rem;
+      font-size: 1rem;
+      padding: 1rem 3rem;
+      transition: 0.2s;
+    }
+    
+    button:hover {
+      letter-spacing: 0.2rem;
+      padding: 1.1rem 3.1rem;
+      background: var(--clr);
+      color: var(--clr);
+      /* box-shadow: 0 0 35px var(--clr); */
+      animation: box 3s infinite;
+    }
+
+    button::before {
+      content: "";
+      position: absolute;
+      inset: 2px;
+      background: #272822;
+    }
+    
+    button span {
+      position: relative;
+      z-index: 1;
+    }
+    button i {
+      position: absolute;
+      inset: 0;
+      display: block;
+    }
+
+    button i::before {
+      content: "";
+      position: absolute;
+      width: 10px;
+      height: 2px;
+      left: 80%;
+      top: -2px;
+      border: 2px solid var(--clr);
+      background: #272822;
+      transition: 0.2s;
+    }
+    
+    button:hover i::before {
+      width: 15px;
+      left: 20%;
+      animation: move 3s infinite;
+    }
+
+button i::after {
+  content: "";
+  position: absolute;
+  width: 10px;
+  height: 2px;
+  left: 20%;
+  bottom: -2px;
+  border: 2px solid var(--clr);
+  background: #272822;
+  transition: 0.2s;
+}
+
+button:hover i::after {
+  width: 15px;
+  left: 80%;
+  animation: move 3s infinite;
+}
+
+@keyframes move {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(5px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes box {
+  0% {
+    box-shadow: #27272c;
+  }
+  50% {
+    box-shadow: 0 0 25px var(--clr);
+  }
+  100% {
+    box-shadow: #27272c;
+  }
+}

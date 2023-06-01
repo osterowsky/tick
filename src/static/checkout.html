@@ -63,16 +63,29 @@
             <div class="popup-content">
               <img src="../assets/logo.png" alt="tick logo" id="popup-logo">
               <div>
-                <div class="popup-text">
-                  <p class="buy-text">Chcesz zapłacić z 0,011 ETH?</p>
-                  <img src="../assets/ethereum.png" alt="eth logo" id="eth-logo">
+                <div class="popup-container">
+                  <div class="popup-text">
+                    <img src="../assets/ethereum.png" alt="eth logo" id="eth-logo">
+                    <p class="buy-text">Chcesz zapłacić z 0,011 ETH?</p>
+                  </div>
+                  <div class="button-group">
+                    <a href="/thank-you"><button style="--clr:#39FF14"><span>✔</span><i></i></button></a>
+                   <button style="--clr:#FF44CC"  onclick="closePopup()"><span>X</span><i></i></button>
+                  </div>
                 </div>
+                <div class="crypto-container">
+                  <div class="crypto-card first">
+                    <img src="../assets/ethereum.png" alt="eth logo" id="eth-logo">
+                    <p class="crypto-text">2,55 ETH</p>
+                  </div>
+                  <div class="crypto-card">
+                    <img src="../assets/btc.png" alt="btc logo" id="btc-logo">
+                    <p class="crypto-text">0.8 BTC</p>
+                  </div>
+                </div>
+                <p class="footer-text" style="font-size: 12px;">© 2023 Tick</p>
               </div>
-              <div class="button-group">
-                <a href="/thank-you"><span class="app-button">Zatwierdź</span></a>
-                <span class="app-button choose-diff">Inne Krypto</span>
-                <span class="app-button cancel" onclick="closePopup()">Anuluj</span>
-              </div>
+
             </div>
           </div>
             
